@@ -1,0 +1,39 @@
+
+@media (max-width:500px)
+{
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav_content{
+    width: 100%;
+    
+    background-color: rgb(80, 51, 51);
+}
+.nav_content ul{
+    border: 2px solid red;
+   
+    display: flex;
+    
+}
+.link_style{
+    padding-top: 8px;
+}
+.nav_content ul li{
+    list-style: none;
+   text-align: center;
+   margin:10px  auto;
+   vertical-align: middle;
+  
+}
+
+.nav_content ul li a
+{
+   text-transform: uppercase;
+    text-decoration:none;
+    vertical-align: middle;
+    color: white;
+   
+}
+
+}
